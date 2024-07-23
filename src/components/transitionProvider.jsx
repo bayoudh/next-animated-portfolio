@@ -23,7 +23,7 @@ const TransitionProvider =({children})=>{
            >
                 {pathName.substring(1).toUpperCase()}
             </motion.div>
-           <motion.div className="h-screen w-screen fixed bg-black rounded-b-[100px] bottom-0 z-30"
+           <motion.div className="h-screen w-screen fixed bg-black rounded-t-[100px] bottom-0 z-30"
            initial={{height:"140vh"}}
            animate={{height:"0vh", transition:{delay:0.5 }}}
            
